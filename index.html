@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<style>
+/* added this style piece to fulfill requirements on codecamp */
+  .lilnasx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 800px) {
+    body {font-size: 0.5em;}
+  }
+</style>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="product.css">
@@ -12,7 +23,7 @@
       <nav id="nav-bar">
         <a class="nav-link" href="#shopping">Shopping</a>
         <a class="nav-link" href="#video">Video</a>
-        <a class="nav-link" href="#form">Submit Email</a>
+        <a class="nav-link" href="#form">Subscribe</a>
       </nav>
     </header>
     <div class="lilnasx" id="shopping">
@@ -31,11 +42,11 @@
       <img id="kendal" src="images/kendal_jenner.jpeg" alt="Kendal Jenner Modeling">
       <p id="shop-white">Shop Women</p>
     </div>
-    <div id=ytvid action="">
+    <div id=ytvid>
       <iframe id=video width="560" height="315" src="https://www.youtube.com/embed/KYU1Q7QTwYc?start=63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <form id="form" name= "email" action="https://www.freecodecamp.com/email-submit"><br><br>
         <input type="email" id="email" name="email" placeholder="Enter email">
-        <input type="submit" id="submit" name="email">
+        <input type="submit" id="submit" name="email" value="Subscribe">
       </form>
     </div>
   </div>
