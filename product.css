@@ -1,0 +1,108 @@
+*{
+  font-family: 'Actor', sans-serif;
+}
+#header {
+  display: flex;
+  align-items: center;
+}
+#header-img {
+  width: 10em;
+  padding-left: -10px;
+}
+nav {
+  flex: auto;
+  text-align: right;
+}
+.nav-link {
+  margin: 1em;
+  color: black;
+  text-decoration: none;
+}
+.lilnasx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lilnas {
+  width: 100%;
+}
+.underwear {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#markymark {
+  width: 50%;
+  height: 125vh;
+}
+#jacob-elordi {
+  width: 50%;
+}
+.underwear-text {
+  position: absolute;
+}
+#underwear-text {
+  border-style: solid;
+  border-color: white;
+  margin: auto;
+  padding: 20px 40px 20px 40px;
+  color: white;
+  font-size: 3em;
+}
+.kendalj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#kendal {
+  width: 100%;
+}
+#shop-black {
+  position: absolute;
+  border-style: solid;
+  border-clor: #000;
+  padding: 20px 40px 20px 40px;
+  color: #000;
+  font-size: 3em;
+}
+#shop-underwear {
+  position: absolute;
+  display: flex;
+  flex-container: column;
+  border-style: solid;
+  border-clor: white;
+  padding: 20px 40px 20px 40px;
+  color: white;
+  font-size: 3em;
+}
+#shop-white {
+  position: absolute;
+  border-style: solid;
+  border-clor: white;
+  padding: 20px 40px 20px 40px;
+  color: white;
+  font-size: 3em;
+}
+#form {
+  font-size: 4em;
+  padding-top: 3em;
+}
+#ytvid {
+  padding-top: 10em;
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/background.jpeg);
+  background-size: cover;
+}
+#video {
+  display: flex;
+  align-items: center;
+}
+#submit {
+  width: 5em;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  border-color: black;
+}
