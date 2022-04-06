@@ -41,11 +41,12 @@ nav {
   align-items: center;
 }
 #markymark {
-  width: 50%;
-  object-fit: fill;
+  width: 50.61%;
+  height: fit-content;
 }
 #jacob-elordi {
-  width: 50%;
+  width: 49.4%;
+
 }
 .underwear-text {
   position: absolute;
